@@ -1,5 +1,5 @@
 import * as line from "npm:@line/bot-sdk"
-import { config } from "https://deno.land/x/dotenv/mod.ts";
+import { config } from "https://deno.land/x/dotenv@v3.2.2/mod.ts";
 
 // .env ファイルから環境変数を読み込む
 const env = config();
